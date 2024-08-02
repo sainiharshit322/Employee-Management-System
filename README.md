@@ -36,7 +36,7 @@ The Employee Management System is a web application for managing employee data, 
 
 1. **Clone the repository**:
     ```bash
-    git clone https://github.com/yourusername/employee-management-system.git
+    git clone https://github.com/sainiharshit322/employee-management-system.git
     cd employee-management-system
     ```
 
@@ -48,9 +48,9 @@ The Employee Management System is a web application for managing employee data, 
 3. **Configure Database**:
     Ensure your PostgreSQL container is running. Update `src/main/resources/application.properties` with your database connection details. Example configuration:
     ```properties
-    spring.datasource.url=jdbc:postgresql://localhost:5432/employee_db
-    spring.datasource.username=your_username
-    spring.datasource.password=your_password
+    spring.datasource.url=jdbc:postgresql://localhost:5432/postgres
+    spring.datasource.username=postgres
+    spring.datasource.password=password
     ```
 
 4. **Build and run the Spring Boot application**:
